@@ -49,6 +49,8 @@ private slots:
   void levelSetSegmentation();
   void videoCameraTrack();
 
+  void openUrl(const QString&);
+
 protected:
   void resizeEvent(QResizeEvent *event);
   void wheelEvent(QWheelEvent *);

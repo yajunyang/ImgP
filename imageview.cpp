@@ -2,6 +2,7 @@
 #include <QMessageBox>
 #include <QWheelEvent>
 #include <QDir>
+#include <QDesktopServices>
 #include "Convert.h"
 #include "imageview.h"
 #include "ui_imageview.h"
@@ -15,6 +16,8 @@ ImageView::ImageView(QWidget *parent) : QMainWindow(parent), ui(new Ui::ImageVie
 
   setWindowTitle("MicroLab ImgP");
 
+  //! \brief connectActionToSlots
+  //!
   connectActionToSlots();
   newSonWidgets();
 
@@ -62,7 +65,14 @@ ImageView::ImageView(QWidget *parent) : QMainWindow(parent), ui(new Ui::ImageVie
   totalImages = 0;
   slideShowDelay = 2.0;
 
-  ui->statusBar->showMessage("If any question, please connect me at http://yajunyang.cn");
+  QLabel *label = new QLabel("<a href = http://yajunyang.cn>connect me...</a>", this);
+  connect(label, SIGNAL(linkActivated(QString)), this, SLOT(openUrl(QString)));
+  ui->statusBar->insertWidget(0, label);
+}
+
+void ImageView::openUrl(const QString &url)
+{
+  QDesktopServices::openUrl(QUrl(url));
 }
 
 ImageView::~ImageView()

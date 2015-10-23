@@ -219,3 +219,5 @@ QImage *IplImage2QImageLowEffect(IplImage *img){
   QImage *image = new QImage(QString("C:/temp.jpg"));
   return image;
 }
+
+
