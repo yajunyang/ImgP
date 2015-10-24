@@ -48,8 +48,11 @@ ImageView::ImageView(QWidget *parent) : QMainWindow(parent), ui(new Ui::ImageVie
   ui->slideShowDelaySlider->setEnabled(false);
   ui->slideShowDelayLabel->setEnabled(false);
   ui->slideShowDelaySlider->setValue(15);
-  ui->actionSave->setEnabled(false);
 
+  //! NOTICE HERE
+  ui->actionOpen_Recent_Files->setEnabled(false);
+  ui->actionSave->setEnabled(false);
+  ui->actionSave_As->setEnabled(true);
   ui->actionLecel_Set->setEnabled(false); //! @warning  Bug
 
   setButtonIcon(ui->slideShowButton, ":/images/buttons/play.png", 48, 48);
@@ -337,6 +340,8 @@ void ImageView::connectActionToSlots()
   connect(ui->actionVideo_Camera_Track, SIGNAL(triggered()), this, SLOT(videoCameraTrack()));
 }
 
+//! new Son Widgets here
+//!
 void ImageView::newSonWidgets()
 {
   glcm = new GLCM(this);
