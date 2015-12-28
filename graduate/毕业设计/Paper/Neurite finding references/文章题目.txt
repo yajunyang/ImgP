@@ -1,0 +1,98 @@
+1471-2105-12-230
+NeurphologyJ: An automatic neuronal
+morphology quantification method and its
+application in pharmacological discovery
+
+1471-2105-14-287
+Statistical analysis of dendritic spine
+distributions in rat hippocampal cultures
+
+1471-2202-12-100
+NeuriteQuant: An open source toolkit for high
+content screens of neuronal Morphogenesis
+
+386974
+A Pipeline f or Neuron Reconstruction Based on Spatial Sliding
+V o l u m e Fi l t e r S e e d i n g
+
+20130015.full
+Three-dimensional vasculature
+reconstruction of tumour
+microenvironment via local clustering
+and classification
+
+Bioinformatics-2010-Peng-i38-46
+Automatic reconstruction of 3D neuron structures using a
+graph-augmented deformable model
+
+Bioinformatics-2011-Longair-2453-4
+Simple Neurite Tracer: open source software for reconstruction,
+visualization and analysis of neuronal processes
+
+Bioinformatics-2011-Peng-i239-47
+Automatic 3D neuron tracing using all-path pruning
+
+cyto2004
+Design and Validation of a Tool for Neurite Tracing
+and Analysis in Fluorescence Microscopy Images
+
+dnajournal
+3D reconstruction and comparison of shapes of DNA
+minicircles observed by cryo-electron microscopy
+
+fnana-08-00037
+Acti ve learning of neuron morphology for accurate
+automated tracing of neurites
+
+fninf-07-00002
+N E u r o n M O r p h o l o g i c a l an a l y s i s tool: open-source software
+for quantitative morphometrics
+]
+isbi2004
+NEURITE TRACING IN FLUORESCENCE MICROSCOPY IMAGES USING
+RIDGE FILTERING AND GRAPH SEARCHING: PRINCIPLES AND VALIDATION
+
+journal.pcbi.1002658
+High-th roughput Computer Method for 3D Neuron al
+Struc ture Rec onstruction from the Image Stack of the
+Droso phila Brain and Its Applications
+
+journal.pone.0005655
+Semi-Au tomated Recon struction of Neur al Processes
+from Large Numbe rs of Fluo rescence Images
+
+journal.pone.0084557
+Rapid Recon struction of 3D Neuron al Morphol ogy from
+L i g h t M i c r o s c o p y I m a g e s w i t h A u g m e n t e d R a y b u r s t
+S a m p l i n g
+
+nihms177792
+V3D enables real-time 3D visualization and quantitative analysis
+of large-scale biological image data sets
+
+nihms208944
+A computational framework for studying neuron morphology
+from in vitro high content neuron-based screening
+
+nihms265617
+Automated Reconstruction of Neuronal Morphology: An
+Overview
+
+nihms451149
+Neurient: An Algorithm for Automatic Tracing of Confluent
+Neuronal Images to Determine Alignment]
+
+nihms455013
+Neuronal Morphology goes Digital: A Research Hub for Cellular
+and System Neuroscience
+
+pami2004
+D e s i g n o f S t e e r a b l e F i l t e r s f o r F e a t u r e
+D e t e c t i o n U s i n g C a n n y - L i k e C r i t e r i a
+
+RFIA
+Tensor Voting: Theory and Applications
+
+schneider_14_tgif
+TGIF: Topological Gap In-Fill for Vascular Networks
+A Generative Physiological Modeling Approach

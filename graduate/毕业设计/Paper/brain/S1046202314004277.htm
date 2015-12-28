@@ -1,0 +1,1194 @@
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="robots" content="NOARCHIVE">
+<meta name="robots" content="noodp" />
+<meta name="robots" content="noydir" />
+ 
+    <meta name="citation_fulltext_world_readable" content="">  
+
+<link rel="canonical" href="http://www.sciencedirect.com/science/article/pii/S1046202314004277">
+
+
+<link rel="shortcut icon" href="http://cdn.els-cdn.com/sd/favSD.ico" type="image/x-icon">
+<title>
+ Neuroinformatics of the Allen Mouse Brain Connectivity Atlas
+ </title> 
+
+<link type="text/css" rel="StyleSheet" href="http://www.sciencedirect.com/gadgetservices/gadgets/v9/css/gadgets_ext,gadgets,toolbar,SDArticleGadgetOverRide,jquery-ui-1.8.4.custom.css">
+
+
+<link rel="stylesheet" href="http://cdn.els-cdn.com/sd/css/article_1506R3.css" type="text/css">
+<link rel="stylesheet" href="http://cdn.els-cdn.com/sd/css/articleSprite_1506R3.css" type="text/css">
+<link rel="stylesheet" href="http://cdn.els-cdn.com/sd/css/jquery-ui_1506R3.css" type="text/css">
+
+
+
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" Title="Default Styles" href="http://cdn.els-cdn.com/sd/css/css_gen_ielt9_1506R3.css" type="text/css">
+<![endif]-->
+
+<script>
+var ab=new Object();
+ab.entitled = true;
+</script>
+<script>
+(function() {
+var scriptTag = document.createElement('script'); 
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = '//cdn.optimizely.com/js/204774041.js';
+var head = document.getElementsByTagName('head')[0];
+head.parentNode.insertBefore(scriptTag, head);
+})();
+function optimizelyTimeout() {
+window.optimizely = window.optimizely|| []; 
+if(!window.optimizely.data) {
+ window.optimizely.push("timeout"); 
+} }
+setTimeout(optimizelyTimeout, 1000); 
+</script>
+
+<script>
+var prs = new Object();prs.rt=function(label,ts){this[label]=(ts||ts==0?ts:new Date().getTime());};
+</script>
+
+
+
+<!--[if lte IE 7]>
+<script src="http://cdn.els-cdn.com/sd/ut/js/json2_1506R3.js.min"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="ua_btn" role="region" aria-label="screen reader compatability"><a role="button" rel="nofollow" href="http://www.sciencedirect.com/science/article/pii/S1046202314004277?np=y">Screen reader users, click here to load entire article</a>This page uses JavaScript to progressively load the article content as a user scrolls.  Screen reader users, click the load entire article button to bypass dynamically loaded article content.</div>
+
+
+
+<script>
+var refLinkURL = "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S1046202314004277";
+var updatedCitedBy = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_updateCitedBy=";
+var refResolvePath = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_pii=S1046202314004277&_refCnt=20&_docType=article";
+
+// these variables handle the reference resolution. Please ignore the naming.
+// the first variable myMap will hold an associative array of links by bibID
+// the second variable myXabsCounts holds the scopus counts.
+var myMap = []; // html of links for references.
+var myXabsCounts = []; // scopus counts
+</script>
+<div id="header-area">
+  
+
+
+<!-- ************* For A/B testing FAST and SOLR Proxy ***************** -->
+
+<!-- *************End for A/B testing FAST and SOLR Proxy *****************-->
+
+
+
+<div id="ieWarningMsg">
+    <span class="infoIcon_ie spErrorIcon">
+        ScienceDirect is phasing out support for older versions of Internet Explorer on Jan 12, 2016.  For the best product experience, we recommend you upgrade to a  
+<a href="http://www.microsoft.com/download/internet-explorer.aspx"> newer version of IE</a> 
+or use a different browser:<a href="https://www.mozilla.org/firefox/new/"> Firefox </a> or <a href="https://www.google.com/chrome/browser/">Chrome</a>. 
+For additional information please see the <a href="http://blog.sciencedirect.com/"> ScienceDirect Blog </a> page.
+    </span>
+    <a class="closeBt" title="Close Internet Explorer 7 warning">Close</a>
+</div>
+
+
+
+<div id="header">
+<div class="headerBlk">
+    <div class="headerInner" role="navigation" aria-label="ScienceDirect">
+        <div class="home">
+            
+            <!--INSERTS THE TEMPLATE VARIABLES POPULATED FROM DB for SCIVERSE and PRODUCT labels-->
+            
+                <a href="http://www.sciencedirect.com/" title="ScienceDirect -The world's leading full-text scientific database"> <span class="logoScienceDirectImg">&nbsp;</span></a>
+            
+        </div>
+
+        
+            <ul class="publication">
+                <!-- Journals link -->
+                
+                    
+                        <li>
+                            <a  href="http://www.sciencedirect.com/science/journals">Journals</a>
+                        </li>
+                     
+                
+
+                <!-- Books link -->
+                
+                    
+                        <li class="sep">
+                            <a  href="http://www.sciencedirect.com/science/bookbshsrw">Books</a>
+                        </li>
+                     
+                
+            </ul>
+        
+
+    </div>
+    
+         <!-- if not logged in -->
+         
+            
+            <div id="login" class="clearfix" aria-label="Help and Sign In" role="navigation" style="margin-right:230px;">
+            <ul class="userlinks">
+                
+                
+                
+            
+                <!--top right widget-->
+                <li  id="loginPlus">
+                    <h2><a id="loginPlusScript" href="javascript:LoginBox.flipLogin('loginBox',null);" title="Sign in to ScienceDirect" class="novisit plus nojs S_C_SignIn" aria-haspopup="true" aria-expanded="false" aria-controls="loginBox" role="button" >Sign in</a></h2>
+                    <noscript><a href="http://www.sciencedirect.com/science?_ob=HomePageURL&_method=userHomePage&_fl=y&md5=6dada1fb726164470bad9e40bbc4d7fa" title="Open the Sign in Box" class="plus S_C_SignIn" id="loginPlusNoScript" >Sign in</a></noscript>
+					
+                    <div id="loginBox" role="dialog" aria-labelledby="headingSignIn" class="bannerAvail" style="width:600px;display:none;"> 
+                        
+                        <div style="width:285px;float:right;border-left:1px solid #9B9B9B;padding-left:10px;min-height:180px;">
+                            
+                                <div class="openAthens"><a href="https://auth.elsevier.com/ShibAuth/institutionLogin?entityID=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&appReturnURL=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1046202314004277" title="Log in using OpenAthens">OpenAthens login</a></div>
+                            
+                            
+                            <div class="sampletext">
+                                <div style="font-weight:bold;padding-bottom:7px;"><h3><b>Login via your institution</b></h3></div>
+                                
+                                
+                                    <div class="fedLink"><a href="http://www.sciencedirect.com/science/externallogin" title="Other institution login">Other institution login</a></div>
+                                
+                            </div>
+                            
+                            
+                            
+                                
+                            
+                            
+                            
+                        </div>
+                        
+                        <div class="padding" style="width:285px;" >
+                            <form name="sdLogin" method="POST" action="https://www.sciencedirect.com/science/login" id="login-box-form" style="margin:0;">
+                            <b><h3 id="headingSignIn">Sign in using your ScienceDirect credentials</h3></b>
+                            <input type="hidden" name="login" value="login">
+                            <div style="margin-top:20px;">
+                            <label for="username"><span style="text-align:right;">Username:</span>
+                            <input id="username" type="text" name="userid" title="Please enter your username here" /></label>
+                            </div>
+                            
+                            <div style="margin-top:7px;">
+                            <label for="password"><span style="text-align:right;">Password:</span>
+                            <input id="password" type="password" name="password" maxlength="20" title="Please enter your password here" onkeypress="if(13==event.keyCode)this.form.submit();if (13==event.keyCode)return false;"/></label>
+                            </div>
+                                   
+                                       
+                            
+                            <div class="remember">
+                            <input type="checkbox" checked name="rememberid" id="rememberMe" value="Y" class="allCheck top2fix" title="Checking this option will log you in automatically next time you visit ScienceDirect"/>
+                            <label for="rememberMe" title="Checking this option will log you in automatically next time you visit ScienceDirect">Remember me</label>
+                            </div>
+                            
+                            <input type="hidden" name="_ob" value="MiamiLogonURL">
+                            <input type="hidden" name="targetURL" value="http://www.sciencedirect.com/science/article/pii/S1046202314004277" >
+                            <input type="hidden" name="returnURL" value="http://www.sciencedirect.com/science/article/pii/S1046202314004277" >
+                            <div class="submit" >
+                            
+                            <div style="float:left;padding-left:0px;"><input class="button" type="Submit" name="arrow" alt="Sign in to ScienceDirect" title="Sign in to ScienceDirect" value="Sign in"/></div>
+                        
+                            
+                            <div class="notRegistered"><span class="astPad">| </span><span><a href="https://www.sciencedirect.com/science/register-new-user" title="" target="_top">Not Registered?</a></span></div>
+                            
+                            
+                            <div style="clear:left;"></div>
+                            </div>
+                            
+                            <div class="forgotpass">
+                            <a href="http://www.sciencedirect.com/science?_ob=ReminderURL&_method=display&md5=4a97631c25ac81c09ad2f961106e9da2" target="passwd" onClick="var remindWin;remindWin=window.open('','passwd','scrollbars=yes,resizable=yes,directories=no,toolbar=n,menubar=no,status=no,width=650,height=300');" title="Click here for help in recovering your ScienceDirect access">Forgotten username or password?</a>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="last"><a class="S_C_helpLink" href="/science?_ob=HelpURL&_file=browse_open_doc.htm&_btn=Y&_zone=TopNavBar&_origin=article" target="sdhelp" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=browse_open_doc.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false" >Help</a></li>
+                
+            </ul>
+            </div>
+            
+            
+        <!-- logged in -->
+             
+    
+</div>
+
+
+    
+                        
+        <div class="clearfix" id="bannerTop" role="banner" aria-label="Institutional Access">                        
+            
+                <a href="http://star.science-weekly.cn/" onclick="openNS('http://star.science-weekly.cn/'); return false;">
+                    <img src="http://china1.elsevier.com/ElsevierDNN/Portals/7/scopus%20YSA.GIF" border="0" />
+                </a>
+            
+        </div>
+        
+    
+           
+
+
+</div><!--header-->
+
+
+
+
+
+
+
+
+
+</div><!--header-area-->
+<div id="page-area">
+    <div id="articleToolbar" class="clearfix quicksearch prd_sci_dir">
+        <div id="articleNav">
+  <ul aria-label="Article options" role="navigation" class="clearfix">
+    <!-- return to gateway -->
+     
+
+
+
+
+
+
+<li>
+  <div class="icon_pdf toolbar">
+    <div class="largeIcon"></div>
+    <a id="pdfLink" rel="nofollow"   href="http://www.sciencedirect.com/science/article/pii/S1046202314004277/pdfft?md5=02747f91aef4547ba21f1aff3be2309e&pid=1-s2.0-S1046202314004277-main.pdf" queryStr="?_origin=article&_zone=toolbar" target="newPdfWin"   pdfurl="http://www.sciencedirect.com/science/article/pii/S1046202314004277/pdfft?md5=02747f91aef4547ba21f1aff3be2309e&pid=1-s2.0-S1046202314004277-main.pdf" queryStr="?_origin=article&_zone=toolbar" suggestedArtURL="http://www.sciencedirect.com/science/suggestedArt/citeList/pii/S1046202314004277/eid/1-s2.0-S1046202314004277/serial" class="S_C_pdfLink big pdf ext_sdlink cLink" style="cursor:pointer" title="Download PDF" >Download PDF
+    <span id="pdfExplanation" class="offscreen">Opens in a new window.  Article suggestions will be shown in a dialog on return to ScienceDirect.</span>
+    </a>
+  </div>
+</li>
+ 
+ 
+
+
+
+
+
+
+
+<li class="exportPopupListitem">
+<div class="pulldown">
+    <div class="exportDivision" title="Export citations">
+    <div class="exportIconText">
+    <div class="icon_exportarticlesci_dir initialImage export_icon" tabindex="0"> &nbsp; </div>
+    <input id="icon_exportarticle" value="Export" name="export" class="listAction export export_general" tabindex="-1" type="button">
+     <span class="downSM_sci_dir exportArrow"></span>
+    </div>
+    <input class='zone' name='zone' type='hidden' value='exportDropDown'/>
+    </div>
+    <div class="menu export_popup hidden" id="export_popup">
+    <div  class='warningIcon' title="Warning Icon" alt="Warning Icon"></div>
+    <form name="exportCite" method=post action=/science?_ob=DownloadURL&_method=finish&_eidkey=1-s2.0-S1046202314004277&count=1&_docType=FLA&md5=1b8c2a7beb7964c6ce6608c034051017 target="">
+    <input class='zone' name='zone' type='hidden' value='exportDropDown'/>
+            <script language="javascript" type="text/javascript">
+<!--
+
+function checkExportFormat(limit) {
+
+    var msg = "";
+
+    for (i=0;i<document.exportCite.elements.length;i++) {
+        if (document.exportCite.elements[i].value == "REFWX") {
+            if (document.exportCite.elements[i].checked) {
+                document.exportCite.setAttribute('target',"RefWorksMain");
+                if (checkLimit()) {
+                    if (limit) {
+                        msg = "It is possible that some users may experience problems when downloading large numbers of citations. If this happens please contact RefWorks support at your regionally hosted site or e-mail support@refworks.com to assist you further.\n\n";
+                    }
+                    msg += "Exporting to RefWorks may take some time, please wait....";
+                    alert(msg);
+                }
+            }
+            else {
+                document.exportCite.setAttribute('target',"");
+            }
+            break;
+        }
+    }
+    return true;
+}
+
+function determineCount(numStr) {
+    var count=1;
+
+    if(numStr.indexOf("-")) {
+        var rangeStr = numStr.split("-");
+
+        if(rangeStr.length == 2) {
+            var highNum = parseInt(rangeStr[1]);
+            var lowNum = parseInt(rangeStr[0]);
+
+            if(highNum >= lowNum) { count = (highNum - lowNum) + 1; }
+        }
+    }
+    return count;
+}
+
+function checkLimit(){
+
+    var selectNum = "";
+    var useSelected = false;
+    var allNum = 0;
+    var count = 0;
+    var rdoc = 0;
+
+    for (i=0;i<document.exportCite.elements.length;i++) {
+        if (document.exportCite.elements[i].name == "count") {
+            allNum = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].name == "NUMBER_LIST") {
+            selectNum = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].name == "_rdoc") {
+            rdoc = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].value == "selected") {
+            if (document.exportCite.elements[i].checked) {
+                useSelected = true;
+            }
+        }
+    }
+
+    if (useSelected) {
+        selectNum = selectNum.replace(/ /g,"");
+        if(selectNum.indexOf(",")) {
+            var commaList = selectNum.split(",");
+            for(i=0; i < commaList.length; i++) {
+                count += determineCount(commaList[i]);
+            }
+        }
+        else {
+            count += determineCount(selectNum);
+        }
+    }
+    else { 
+        if (rdoc > 0) {
+            count = 1;
+        }
+        else {
+            count = allNum;
+        }
+    }
+
+    if(count > 50) { return true; }
+  
+    return false;
+}
+
+//-->
+</script>
+
+    <div class="exportInfo">
+        <div class="chkboxCount"></div>
+        <div class="exportHelp">
+            <a target="sdhelp" href="/science?_ob=HelpURL&_file=art_export.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=art_export.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a>
+        </div>
+    </div>
+
+    <div class="expContainer">
+      <ul class="Export_Popup" width="100%">
+        <li class="subHeading"><h3> Direct export </h3></li>
+        <li class="direct_export">
+         
+            <div>
+              <div class="btn_export directExport">
+                <div class="icon_Mendeley" title="Save to Mendeley">&nbsp;</div>
+                <input id="directExport" type="button" value="Save to Mendeley" name="Save to Mendeley" alt="Save to Mendeley" class="mendeleyBT button"/>
+              </div>
+            </div>
+        
+        
+            <div class="btnLine">
+              <div class="btn_export refworks">
+                <div class="icon_Refworks" title="Save to RefWorks">&nbsp;</div>
+                <input id="REFWX" type="button" value="Save to RefWorks" name="Save to RefWorks" alt="Save to RefWorks" class="button refworks"/>
+              </div> 
+            </div>
+            <div class="clear"> </div>
+        
+        </li>
+        <li class="subHeading big"> <h3>Export file</h3></li>
+        <li class="export_radio RIS"><input type="radio" id="RIS" checked name="citation-type" value="RIS"  class="artRadio expRadio RIS">&nbsp;<label for="RIS">RIS&nbsp;(for EndNote, Reference Manager, ProCite)</label>
+        </li>
+        <li class="export_radio"><input type="radio" id="BIBTEX" name="citation-type" value="BIBTEX"  class="artRadio expRadio BIBTEX">&nbsp;<label for="BIBTEX">BibTeX</label>
+        </li>
+        <li class="export_radio"><input type="radio" id="ASCII" name="citation-type" value="ASCII"  class="artRadio expRadio ASCII">&nbsp;<label for="ASCII">Text</label>
+        </li>
+        <li class="export_radio hidden"><input type="radio" id="REFWX" name="citation-type" value="REFWX"  class="artRadio expRadio REFWX">&nbsp;<label for="REFWX">RefWorks Direct Export</label>
+        </li>
+        <li class="subHeading big"><h3>Content</h3></li>
+        <li class="expCitab export_radio"><input type="radio" id="cite" class="cite artRadio expRadio" name="format" value="cite" >&nbsp;<label class="cit" for="cite"> Citation Only </label>
+        </li>
+        <li class="expCitab export_radio citab"><input type="radio" id="cite-abs" class="cite-abs artRadio expRadio" name="format" value="cite-abs" checked>&nbsp;<label class="cab" for="cite-abs"> Citation and Abstract </label>
+        </li>
+        <li class="export_submit">
+            <div class="downBtn export_downBtn">
+               <input type="submit" value="Export" name="export" alt="Export" class="button export_button" id="export_button"/>
+            </div> 
+        </li>
+      </ul>
+
+    </div>
+
+
+        
+        
+            
+         
+
+    </form>
+    </div> 
+</div>    
+</li>
+  
+
+
+
+</ul>
+</div>
+
+<div class="sdSearch" aria-label="Quick search" role="search">
+    <fieldset>
+        <div class="left">
+            <form id="quickSearch" name="qkSrch" method="get" target="_top" action="/science">
+            <input type="hidden" name="_ob" value="QuickSearchURL">
+            <input type="hidden" name="_method" value="submitForm">
+            <input type="hidden" name="_acct" value="C000050177">
+            <input type="hidden" name="searchtype" value="a">
+            <input type="hidden" name="_origin" value="article">
+            <input type="hidden" name="_zone" value="qSearch">
+            <input type="hidden" name="md5" value="b79fe26c42040ad6bcb79c2afd81fd9d">
+            
+            <input  id="quickSearch" type="text" name="qs_all" placeholder="Search ScienceDirect" value="" size="30" maxlength="450" title="Perform a quick search on ScienceDirect"><input type="submit" class="submit" value="" title="Submit quick search"/>
+            
+            <a class="advanced S_C_advanced" href="http://www.sciencedirect.com/science/search" >Advanced search</a>
+            </form>
+        </div>
+    </fieldset>
+</div>
+<div class="clear"></div>
+<div id="erToolbar"></div>
+
+
+<div style="color : #FF0000; font-weight : bold;border:0px solid red;">
+  
+  
+  
+  
+</div>
+
+
+
+
+
+    </div>
+    <div id="articleToolbarDummy"></div>
+  <div style="clear:both;"></div>
+  
+  <div id="leftPane" class="column" aria-label="table of contents" role="navigation">
+    <div id="leftPaneInner">
+        <div>
+        <div id="leftButton">
+            <ul>
+                <li class="tocbutton">
+                    <a class="outline-toggle" title="Open to view article outline"  alt="Open to view article outline" href="#" aria-expanded="false">
+                        <span class="icon outline_big"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="outlineContainer">
+            <a class="closeBt" title="Close">&nbsp;</a>
+            <div id="outline" class="outline">
+              <script type="text/javascript">
+              document.write("<div class='outlineMsg'>Article outline is loading...</div>");
+              </script>
+              <noscript>
+              <div class="infoMsg">
+              <div style="float: left; width: 20px; "><img border="0" src="http://cdn.els-cdn.com/sd/alertIcon.gif" valign="top" alt="Alert message"></div>
+              <div style="padding-left:25px;">JavaScript is disabled on your browser. <br><div style="padding-top:10px;">
+              Please enable JavaScript to use all the features on this page.</div></div>
+              </div>
+              </noscript>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div id="centerPane" class="column">
+    <div class="topBorder"></div>
+    <div id="centerContent" class="centerContent">
+    <div id="centerInner" class="centerInner svBigBox" aria-label="Article" role="main">
+        
+      
+      <noscript>
+      <div class="msgBox" style="margin-top:10px;">
+          <span class="errMsg">
+            <div>JavaScript is disabled on your browser.  Please enable JavaScript to use all the features on this page. This page uses JavaScript to progressively load the article content as a user scrolls. Click the View full text link to bypass dynamically loaded article content. <a rel="nofollow" href="http://www.sciencedirect.com/science/article/pii/S1046202314004277?np=y">View full text</a></div>
+         </span>
+      </div><br/>
+      </noscript>
+      <div class="head headTemplate page_fragment_ind">
+
+  
+<div class="publisherLogo">
+  <span class="spElsevierPubIcon"></span>
+</div>
+
+
+  
+    <?xml version="1.0" encoding="UTF-8"?><div xmlns:bk="http://www.elsevier.com/xml/bk/dtd" class="publicationHead"><div class="title"><a title="Go to Methods on ScienceDirect" href="/science/journal/10462023" queryStr="?zone=centerPane" class="cLink"><span>Methods</span></a></div><p class="volIssue"><a class="S_C_volIss" title="Go to table of contents for this volume/issue" href="/science/journal/10462023/73/supp/C">Volume 73</a>, February 2015, Pages 4–17</p><p class="specIssueTitle">Spatial mapping of multi-modal data in neuroscience</p><p class="titleEditors">Edited By Mike Hawrylycz, Susan Sunkin and Lydia Ng</p></div>
+  
+    <div class="publicationCover cover2">
+    
+      
+    <a queryStr="?zone=publicationLogo" class="cLink" href="/science/journal/10462023/73/supp/C">
+      
+    
+    <img alt="Cover image" src="http://ars.els-cdn.com/content/image/1-s2.0-S1046202315X00028-cov150h.gif" class="toprightlogo" />
+    <noscript><img alt="Cover image" src="http://ars.els-cdn.com/content/image/1-s2.0-S1046202315X00028-cov150h.gif" class="toprightlogo" /></noscript>
+    </a>
+    
+  </div>
+
+
+</div>
+
+      <div id="frag_1" class="page_fragment auth_frag" data-first="true" data-fid="1"><div class="module_topic_paths"></div><h1 class="svTitle" id="tm005">Neuroinformatics of the <em>Allen Mouse Brain Connectivity Atlas</em></h1><ul class="authorGroup noCollab svAuthor"><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4eb30" data-t="a" data-fn="Leonard" data-ln="Kuan" data-pos="1" data-tb="">Leonard Kuan</a><a title="Footnote: 1" href="#fn1" class="intra_ref auth_footnote" id="bfn1"><sup>1</sup></a><sup>, </sup><a href="mailto:LeonardK@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4ec20" data-t="a" data-fn="Yang" data-ln="Li" data-pos="2" data-tb="">Yang Li</a><a title="Footnote: 1" href="#fn1" class="intra_ref auth_footnote" id="bfn1"><sup>1</sup></a><sup>, </sup><a href="mailto:YangL@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4ed10" data-t="a" data-fn="Chris" data-ln="Lau" data-pos="3" data-tb="">Chris Lau</a> <a href="mailto:ChrisL@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4ed88" data-t="a" data-fn="David" data-ln="Feng" data-pos="4" data-tb="">David Feng</a> <a href="mailto:DavidF@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4ee00" data-t="a" data-fn="Amy" data-ln="Bernard" data-pos="5" data-tb="">Amy Bernard</a> <a href="mailto:AmyB@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4ee78" data-t="a" data-fn="Susan M." data-ln="Sunkin" data-pos="6" data-tb="">Susan M. Sunkin</a> <a href="mailto:SusanS@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4eef0" data-t="a" data-fn="Hongkui" data-ln="Zeng" data-pos="7" data-tb="">Hongkui Zeng</a> <a href="mailto:HongkuiZ@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4ef68" data-t="a" data-fn="Chinh" data-ln="Dang" data-pos="8" data-tb="">Chinh Dang</a> <a href="mailto:ChinhDa@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4efe0" data-t="a" data-fn="Michael" data-ln="Hawrylycz" data-pos="9" data-tb="">Michael Hawrylycz</a> <a href="mailto:MikeH@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N48aca7a0N3fd4f058" data-t="a" data-fn="Lydia" data-ln="Ng" data-pos="10" data-tb="">Lydia Ng</a><a title="Corresponding author contact information" href="#cor1" id="bcor1" class="intra_ref auth_corr"></a><sup>, </sup><a href="mailto:LydiaN@alleninstitute.org" class="auth_mail" title="E-mail the corresponding author"></a></li></ul><!--VALIDHTML--><ul class="affiliation authAffil"><li id="af005"> <span id="">The Allen Institute for Brain Science, 551 N. 34th Street, Seattle, WA 98103, USA</span></li></ul><!--VALIDHTML--><!--VALIDHTML--><dl class="articleDates"><dd>Received 19 September 2014, Revised 11 December 2014, Accepted 12 December 2014, Available online 20 December 2014</dd></dl><!--VALIDHTML--><div class="moreInformation"></div><div id="showMoreButtons"></div><div id="ppvPlaceHolder" class="hidden"></div><!--VALIDHTML--><dl class="extLinks"><dd class="doiLink"></dd><dd class="rightsLink"></dd></dl><div class="articleOAlabelForced"></div><div id="refersToAndreferredToBy"><dl id="referredToBy" class="documentThread"><!--Referred To By--></dl></div><!--FRAGMENTEND--><div class="page_fragment_ind auth_frag" data-id="frag_2"></div></div><div id="frag_2" class="page_fragment" data-fid="2"><script>prs.rt("abs_1st_beg");</script><!--VALIDHTML--><hr id="abs_author-highlightsab0051" class="artHeader"><div class="abstract svAbstract &#10;	  abstractHighlights&#10;	  " data-etype="ab"><h2 class="secHeading" id="author-highlightsab0051">Highlights</h2><p id="sp0005"><dl class="listitem" id="list_l0005"><dt class="label">&bull;</dt><dd><p id="p0170">Full brain coverage mouse connectivity atlas.</p></dd><dt class="label">&bull;</dt><dd><p id="p0175">Automated pipeline algorithms for signal detection and registration.</p></dd><dt class="label">&bull;</dt><dd><p id="p0180">Web application tools for search and visualization.</p></dd></dl></p></div><!--VALIDHTML--><hr id="abs_authorab0101" class="artHeader"><div class="abstract svAbstract " data-etype="ab"><h2 class="secHeading" id="authorab0101">Abstract</h2><p id="sp0010">The <em>Allen Mouse Brain Connectivity Atlas</em> is a mesoscale whole brain axonal projection atlas of the C57Bl/6J mouse brain. Anatomical trajectories throughout the brain were mapped into a common 3D space using a standardized platform to generate a comprehensive and quantitative database of inter-areal and cell-type-specific projections. This connectivity atlas has several desirable features, including brain-wide coverage, validated and versatile experimental techniques, a single standardized data format, a quantifiable and integrated neuroinformatics resource, and an open-access public online database (<span id="ir0005" class="interref" data-locatorType="url" data-locatorKey="http://connectivity.brain-map.org/">http://connectivity.brain-map.org/</a></span>). Meaningful informatics data quantification and comparison is key to effective use and interpretation of connectome data. This relies on successful definition of a high fidelity atlas template and framework, mapping precision of raw data sets into the 3D reference framework, accurate signal detection and quantitative connection strength algorithms, and effective presentation in an integrated online application. Here we describe key informatics pipeline steps in the creation of the <em>Allen Mouse Brain Connectivity Atlas</em> and include basic application use cases.</p></div><!--VALIDHTML--><script>prs.rt("abs_end");</script><div id="SD_BA1P" class="sgfNoTitleBar sgfNoGadgetBorder svDoNotLink"></div><!--VALIDHTML--><h2 id="kwd_1" class="svKeywords">Abbreviations</h2><ul class="keyword" id="kg005"><li id="k0005" class="svKeywords"><span id="">2D</span>, <span id="">two dimensional</span>; </li><li id="k0015" class="svKeywords"><span id="">3D</span>, <span id="">three dimensional</span>; </li><li id="k0025" class="svKeywords"><span id="">EGFP</span>, <span id="">enhanced green fluorescent protein</span>; </li><li id="k0035" class="svKeywords"><span id="">IDP</span>, <span id="">informatics data pipeline</span>; </li><li id="k0045" class="svKeywords"><span id="">INCF</span>, <span id="">International Informatics Coordinating Facility</span>; </li><li id="k0055" class="svKeywords"><span id="">MIP</span>, <span id="">maximum intensity projection</span>; </li><li id="k0065" class="svKeywords"><span id="">MRI</span>, <span id="">magnetic resonance imaging</span>; </li><li id="k0075" class="svKeywords"><span id="">R,G,B</span>, <span id="">red,green,blue</span>; </li><li id="k0085" class="svKeywords"><span id="">STP</span>, <span id="">serial two-photon</span>; </li><li id="k0095" class="svKeywords"><span id="">WHS</span>, <span id="">Waxholm Space</span>; </li><li id="k0105" class="svKeywords"><span id="">ZAP</span>, <span id="">zoom-and-pan</span></li></ul><!--VALIDHTML--><h2 id="kwd_2" class="svKeywords">Keywords</h2><ul class="keyword" id="kg010"><li id="k0115" class="svKeywords"><span id="">Mouse connectivity atlas</span>; </li><li id="k0120" class="svKeywords"><span id="">Image registration</span>; </li><li id="k0125" class="svKeywords"><span id="">Signal detection</span>; </li><li id="k0130" class="svKeywords"><span id="">Digital atlas</span>; </li><li id="k0135" class="svKeywords"><span id="">Neuronal projection</span></li></ul><!--VALIDHTML--><hr class="artHeader"><h2 class="svArticle" id="s0005">1. Introduction</h2><p class="svArticle section" id="p0005">Modern neuroscience is increasingly exploiting three-dimensional digital brain atlases as a means for understanding complex brain anatomy, localizing experimental data, and planning experiments. Such atlases are critical to integrating diverse information in a topographically meaningful fashion <span id="bb0005"><a href="#b0005" id="ancbb0005" class="intra_ref">[1]</a></span>. Several recent studies and atlases of brain connectivity have become available, spanning scales from micro through meso to macro, that pose new challenges for data mapping and organization <a href="#b0010" id="bb0010" class="intra_ref">[2]</a>, <a href="#b0015" id="bb0015" class="intra_ref">[3]</a>, <a href="#b0020" id="bb0020" class="intra_ref">[4]</a>&#xA0;and&#xA0;<a href="#b0025" id="bb0025" class="intra_ref">[5]</a>. Beyond conventional structure-based atlases, large scale atlases of connectivity of the brain pose special demands on informatics and quantitative processing of the data. In addition to issues of data preprocessing, image registration, and signal quantification, there are substantial challenges in tracing neuronal connections and proper interpretation of the data.</p><!--VALIDHTML--><p class="svArticle section" id="p0010">The <em>Allen Mouse Brain Connectivity Atlas</em> is a comprehensive database of high-resolution images of axonal projections originating from distinct anatomical regions of wild-type mouse brains or from various genetically labeled cell populations in individual brain regions of Cre-driver mice  <span id="bb0025"><a href="#b0025" id="ancbb0025" class="intra_ref">[5]</a></span>. Briefly, to create the atlas, each mouse brain was injected with an enhanced green fluorescent protein (EGFP)-expressing adeno-associated virus (AAV) as an anterograde viral tracer into a particular brain region. EGFP labeled axonal projections throughout the brain were systematically imaged using a customized TissueCyte 1000 serial two-photon (STP) tomography system, which couples high-speed two-photon microscopy with automated vibratome sectioning  <span id="bb0030"><a href="#b0030" id="ancbb0030" class="intra_ref">[6]</a></span>. By imaging serially at 75&#xA0;μm below the tissue surface of the brain, STP tomography reduces tissue distortions that occur in conventional section-based histological methods, yielding a series of high resolution, inherently pre-aligned images amenable to more precise 3D spatial mapping.</p><!--VALIDHTML--><p class="svArticle section" id="p0015">The three dimensional geometry of projections is obtained by sequentially sampling high resolution 2D imagery. For each brain specimen, 140 coronal plane high resolution (0.35&#xA0;μm) images were obtained at a <em>z</em>-sampling interval of 100&#xA0;μm. This procedure spans the entire brain during a continuous 18.5&#xA0;h scanning period, resulting in an approximately 750&#xA0;gigabyte data set per brain. The GFP signals from the injection site and axonal projections were collected in the green channel, while background fluorescence recorded in the red channel provides basic anatomy of brain structures ( <span id="bf0005"><a href="#f0005" id="ancbf0005" class="intra_ref">Fig. 1</a></span>).</p><!--VALIDHTML--><div class="figTblUpiOuter svArticle" id="figure_f0005"><div><dl class="figure" id="f0005" data-t="f"><dt class="autoScroll" data-style="height:466px;width:685px;"><a class="figureLink" href="#gr1" title="Full-size image (122 K)"><img class="imgLazyJSB figure large smallImg" border="0" alt="Full-size image (122 K)" src="/sd/grey_pxl.gif" data-thumbEID="1-s2.0-S1046202314004277-gr1.sml" data-fullEID="1-s2.0-S1046202314004277-gr1.jpg" data-imgEIDs="1-s2.0-S1046202314004277-gr1.jpg" data-thumbheight="149" data-thumbwidth="219" data-fullheight="466" data-fullwidth="685"><noscript class="figure large" border="0" alt="Full-size image" data-thumbEID="1-s2.0-S1046202314004277-gr1.sml" data-fullEID="1-s2.0-S1046202314004277-gr1.jpg"><img class="figure large" border="0" alt="Full-size image (122 K)" src="http://origin-ars.els-cdn.com/content/image/1-s2.0-S1046202314004277-gr1.jpg" data-thumbEID="1-s2.0-S1046202314004277-gr1.sml" data-imgEIDs="1-s2.0-S1046202314004277-gr1.jpg" data-fullEID="1-s2.0-S1046202314004277-gr1.jpg"></noscript></a></dt><dd id="labelCaptionf0005"><div class="caption">Fig. 1.&#xA0;<p id="sp0015">High-resolution image series of a coronally sectioned brain specimen from the <em>Allen Mouse Brain Connectivity Atlas</em> with EGFP viral tracer injected into the primary visual area (blue arrow). The injection site and major projection targets are visible in green. Sequential imaging at 100&#xA0;μm intervals generates inherently pre-aligned images amenable to precise 3D reconstruction and mapping. The coronal images on the middle and left side of this figure are displayed from a medial to a caudal plane of section through an adult mouse brain. The inset at the upper right shows a detail of EGFP-labeled axonal projections, terminating in the lateral geniculate nucleus. The sagittal and horizontal planes are virtual extrapolations derived from reconstruction of the coronal image series.</p><!--caption--></div></dd><dd class="menuButtonLinks"><div class="btnHolder"><a class="menuTitle" href="#">Figure options</a><div class="down_Btn"></div></div><ul class="menuButton"><li><a class="S_C_full_size" data-src="/science?_ob=MiamiCaptionURL&amp;_method=retrieve&amp;_eid=1-s2.0-S1046202314004277&amp;_image=1-s2.0-S1046202314004277-gr1.jpg&amp;_cid=272416&amp;_explode=defaultEXP_LIST&amp;_idxType=defaultREF_WORK_INDEX_TYPE&amp;_alpha=defaultALPHA&amp;_ba=&amp;_rdoc=1&amp;_fmt=FULL&amp;_issn=10462023&amp;_pii=S1046202314004277&amp;md5=6ed864e8b8a1d960ff5d49d0e97ccf79" data-label="labelCaptionf0005" data-ref="" data-format="S1046202314004277" href="#gr1" title="View full-size image - Opens in new window">Download full-size image</a></li><li><a class="ppt S_C_ppt" title="Download as PowerPoint slide" href="http://services.elsevier.com/SDWebExport/export/figure/S1046202314004277/1-s2.0-S1046202314004277-gr1.jpg/ppt">Download as PowerPoint slide</a></li></ul></dd></dl></div></div><!--VALIDHTML--><p class="svArticle section" id="p0020">Each image series was processed through a high-throughput informatics data pipeline (IDP) to obtain spatially mapped and quantified projection information (<span id="bf0010"><a href="#f0010" id="ancbf0010" class="intra_ref">Fig. 2</a></span>). To do this, key algorithms were developed to reliably extract labeled axons from the digitized images and to bring data from different brains into registration to allow computational comparison. The output of the data generation and processing pipeline supports the creation of whole-brain connectivity matrices and analysis of connectional strength distribution, symmetry, and other network properties <span id="bb0025"><a href="#b0025" id="ancbb0025" class="intra_ref">[5]</a></span>. Through an online web application (<span id="ir0010" class="interref" data-locatorType="url" data-locatorKey="http://connectivity.brain-map.org">http://connectivity.brain-map.org</a></span>), informatics results support key features that allow easier navigation of this large database, such as an interactive projection summary graph for each specimen; an image synchronization feature to browse images from multiple injections, reference data, and atlases in a coordinated manner; and on-the-fly search service to identify specimens with specific projection profiles. Here we report the detailed methodologies in developing this informatics pipeline and web product.</p><!--VALIDHTML--><div class="page_fragment_ind" data-id="frag_3"></div><script>prs.rt("abs_1st_end");</script></div>
+
+               
+
+       
+   
+        
+    </div>
+    <div id="footer-area-dummy"></div>
+    <div id="footer-area" aria-label="product support" role="contentinfo">
+      <div id="sdFoot">
+      <div id="footer" aria-label="Footer" role="navigation">	
+  <div class="bottomArticle"></div>
+  <div class="padding">
+    <div id="linkArea">
+      <div class="padding links">
+        <div style="float:left;width:0;height:1px;"></div>
+        <div id="banner-bottom">
+          <a class="S_C_aboutElsevier" href="http://www.elsevier.com" target="_blank" title="Elsevier homepage (opens in a new window)"></a>
+        </div>
+        <ul class="col5">
+<li><a target="_blank" href="http://www.info.sciverse.com/sciencedirect?utm_source=sciencedirect&utm_medium=link&utm_campaign=aboutsd">About ScienceDirect</a></li>
+</ul>
+<ul class="col5">
+<li> <a target="_blank" href="http://www.sciencedirect.com/science/contactus">Contact and support</a></li>
+</ul>
+<ul class="col5">
+<li><a target="_blank" href="http://www.elsevier.com/locate/termsandconditions?utm_source=sciencedirect&utm_medium=link&utm_campaign=terms">Terms and conditions</a></li>
+</ul>
+<ul class="col5">
+<li><a target="_blank" href="http://www.elsevier.com/privacypolicy?utm_source=sciencedirect&utm_medium=link&utm_campaign=privacy">Privacy policy</a></li>
+</ul><script>function loadSCode(){if(typeof SDM!="undefined"){var e=document.getElementsByTagName("body")[0],t=document.createElement("script");var prefix = "";if(document.location.protocol == "https:"){prefix = "origin-";}t.src = "//" + prefix + "cdn.els-cdn.com/sd/js/adobe/s_code_131.js";e.appendChild(t);sendSCStats()}else{setTimeout(loadSCode,100)}}function sendSCStats(){if(typeof s_tc_sciencedirect!="undefined"){s.t()}else{setTimeout(sendSCStats,100)}}if(window.addEventListener){window.addEventListener("load",loadSCode,false)}else if(window.attachEvent){window.attachEvent("onload",loadSCode)}else{window.onload=loadSCode}</script>
+        <div class="clear"></div>
+        <!-- CSAS will be providing the links-->
+      </div>
+      <div class="padding copyright">
+	<hr/>
+        Copyright &copy; 2015 Elsevier B.V. or its licensors or contributors. ScienceDirect&reg; is a registered trademark of Elsevier B.V.
+      </div>
+      <div class="padding" style="padding-bottom:4px;font-size:11px;">
+              Cookies are used by this site. To decline or learn more, visit our <a href="http://www.info.sciverse.com/sciencedirect/cookies" target="_blank">Cookies</a> page.
+        </div> 
+      
+        
+          <div class="padding links">
+            <div id="goToggleSite"><a class="mLink" site='Mobile' ckNm='Site' lnkOrg='article' lnkZn='footer' href='#'>Switch to Mobile Site</a></div>
+          </div>
+	  <form id="pgReload" method="get" action=""></form>
+        
+      
+    </div>
+  </div>
+</div> <!--footer-->
+
+      </div><!--sdFooter-->
+    </div><!--footer-area-->
+    </div>
+ </div>
+ <div id="rightPane" class="column" aria-label="Related content" role="complementary">
+  <div id="rightOuter" class="rightOuter">
+    <div id="rightInner" class="rightInner">
+       <div class="innerPadding">
+
+    <div id="SD_BIB" class="hidden entry separator appBox sgfNoTitleBar sgfNoGadgetBorder"></div>
+ 
+
+    
+    
+        <div id="recommend_related_articles" class="entry separator related closed">
+            
+                <h2><a href="#articles" class="toggle" aria-controls="relArtList" aria-expanded="false"><span class="iconArrow">&nbsp;</span>Recommended articles</a></h2>
+             
+             <ol id="relArtList"><li class="note"><p>No articles found.</p></li></ol>
+        </div>
+    
+    
+    
+        <div id="cited_by_articles" class="entry separator related closed">
+            <h2><a href="#articles" class="toggle" aria-controls="relArtList" aria-expanded="false"><span class="iconArrow">&nbsp;</span>Citing articles (<span id="hitcount">0</span>)</a></h2>
+            <ol id="citedByList"><li class="note"><p>This article has not been cited.</p></li></ol> 
+        </div>
+    
+    
+    
+        <div id="SD_CRA" class="hidden entry separator appBox sgfNoTitleBar sgfNoGadgetBorder"></div>  
+    
+    
+        
+            <div id="related_book_content" class="entry separator related closed">
+                <h2><a href="#articles" class="toggle" aria-controls="relArtList" aria-expanded="false"><span class="iconArrow">&nbsp;</span>Related book content</a></h2>
+                <ol id="relBkList"><li class="note" style="margin-left:15px;"><p>No articles found.</p></li></ol>
+            </div>
+        
+     
+
+
+
+    
+        <div class="appContainerDummy"></div>
+        <div class="appContainer js_application_content">
+            <ul class="hidden" id="dataRepHolder"></ul>
+            
+                <div id="SD_AT1P" class="boxLink sgfNoTitleBar sgfNoGadgetBorder"></div>
+            
+
+            
+                <div id="SD_FTA1" class="boxLink sgfHorToolbar sgfShowMyApps sgfShowMoreLessApps"></div>
+            
+        </div>
+    
+
+
+</div>
+
+<div class="js_workspace_content popup" aria-live="polite" role="region" aria-label="Overlay" aria-describedby="skuip-3">
+    <a aria-label="close overlay" title="close overlay" alt="close overlay" href="#" id="buttonClose" role="button" class="closeBt">&nbsp;</a>
+    <div class="scrollArea"><div id="workSpaceView"></div></div>
+</div>
+
+    </div><!--rightInner-->
+  </div><!--rightOuter-->
+ </div><!--rightPane-->
+</div><!--page-area-->
+
+
+
+<div style="clear:both;"></div>
+
+<form name="citationInfo" id ="citationInfo" method="POST" action="">
+    <input type="hidden" name="art_citation" value=""/>
+</form>
+<div id="pdfModalWindow" class="pdfModalWindow" style="display:none;" onClick="pdfCite.closePopup();"></div>
+
+
+<!-- PDFKING/PDFCITE -->
+<div id="suggestedPdfList" style="display:none;">
+ 
+<div id="modalBoxDisplay" class="nojs" tabindex="0" role="dialog" aria-labelledby="hdSDSuggestions">
+    <div class="pdfModalWindowMsgBox" id="pdfModalWindowMsgBox" >
+        <div>
+            <a onClick="pdfCite.closePopup();" href = "#" title = "Close article suggestions" alt="Close article suggestions">
+            <!-- JSB <img src = "http://cdn.els-cdn.com/sd/close-button.png" width = "25" height = "27" alt = "Close" /> -->
+                <div class="close">&nbsp;</div> 
+            </a>
+        </div>
+		<div class = "modal">
+           <form method="get" name="Tag" action="/science/suggestedArt/export" style="padding:0px; margin:0px;" target="">
+            <input type="hidden" name="pdfDownload" value="download">
+            
+                <input type="hidden" name="PDF_DDM_MAX" value=20>
+             
+            <input type="hidden" name="_retainOrder" value="Y">
+            <input class='zone' name='zone' type='hidden' value='DDM'/>
+            <div class = "header">
+                <h1 class = "headline" id="hdSDSuggestions">Recommended articles</h1>
+                <img class = "sd-bubbles_pdf" src = "http://cdn.els-cdn.com/sd/sciencedirect.svg" width = "176" height = "24" alt = "ScienceDirect" title = "" / onerror="this.src='http://cdn.els-cdn.com/sd/sciencedirect.png'">
+            </div>
+            <div id="SuggestedArtList">
+                <div class="toolBar">
+                <ul class = "group"> 
+                    <li class="selection">
+                        <input class="checkBox pdf_selectAll" type="checkbox" name="artt" value="" aria-label="Select all articles for export or download PDFs" style="opacity: 1;">
+                    </li>
+                    
+                    <li class="pdfDownloader">
+                        <input   
+                        value="Download PDFs" name="pdfDownloadButton" class="listAction iconBg" type="submit" 
+                         id="multiPdfIcon"
+                        
+                        aria-describedby="downloadAllPdfAx">
+                        <span id="downloadAllPdfAx" class="hidden">Opens document download manager</span>
+                    </li>
+                    
+                    
+                    <li class="exportListitem">
+                        <div class="pulldown" style="display:inline-block;">
+                            <div class="exportDivision" title="Export Citation">
+                            <div class="icon_exportarticlesci_dir initialImage export_icon" tabindex="0"> &nbsp; </div>
+                            <input id="icon_exportarticle" value="Export" name="export" class="listAction export export_general" tabindex="-1" type="button" aria-expanded="false" aria-controls="pdf_export_popup"> 
+                            <span class="downSM_sci_dir exportArrow"></span>
+                            </div>
+                            <div class="menu pdf_export_popup hidden" id="pdf_export_popup">
+                            <img  class='warningIcon' title="Warning Icon" alt="Warning Icon" src="http://cdn.els-cdn.com/sd/img/sprite_parts/warning_a.gif"/>
+                                    <script language="javascript" type="text/javascript">
+<!--
+
+function checkExportFormat(limit) {
+
+    var msg = "";
+
+    for (i=0;i<document.exportCite.elements.length;i++) {
+        if (document.exportCite.elements[i].value == "REFWX") {
+            if (document.exportCite.elements[i].checked) {
+                document.exportCite.setAttribute('target',"RefWorksMain");
+                if (checkLimit()) {
+                    if (limit) {
+                        msg = "It is possible that some users may experience problems when downloading large numbers of citations. If this happens please contact RefWorks support at your regionally hosted site or e-mail support@refworks.com to assist you further.\n\n";
+                    }
+                    msg += "Exporting to RefWorks may take some time, please wait....";
+                    alert(msg);
+                }
+            }
+            else {
+                document.exportCite.setAttribute('target',"");
+            }
+            break;
+        }
+    }
+    return true;
+}
+
+function determineCount(numStr) {
+    var count=1;
+
+    if(numStr.indexOf("-")) {
+        var rangeStr = numStr.split("-");
+
+        if(rangeStr.length == 2) {
+            var highNum = parseInt(rangeStr[1]);
+            var lowNum = parseInt(rangeStr[0]);
+
+            if(highNum >= lowNum) { count = (highNum - lowNum) + 1; }
+        }
+    }
+    return count;
+}
+
+function checkLimit(){
+
+    var selectNum = "";
+    var useSelected = false;
+    var allNum = 0;
+    var count = 0;
+    var rdoc = 0;
+
+    for (i=0;i<document.exportCite.elements.length;i++) {
+        if (document.exportCite.elements[i].name == "count") {
+            allNum = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].name == "NUMBER_LIST") {
+            selectNum = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].name == "_rdoc") {
+            rdoc = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].value == "selected") {
+            if (document.exportCite.elements[i].checked) {
+                useSelected = true;
+            }
+        }
+    }
+
+    if (useSelected) {
+        selectNum = selectNum.replace(/ /g,"");
+        if(selectNum.indexOf(",")) {
+            var commaList = selectNum.split(",");
+            for(i=0; i < commaList.length; i++) {
+                count += determineCount(commaList[i]);
+            }
+        }
+        else {
+            count += determineCount(selectNum);
+        }
+    }
+    else { 
+        if (rdoc > 0) {
+            count = 1;
+        }
+        else {
+            count = allNum;
+        }
+    }
+
+    if(count > 50) { return true; }
+  
+    return false;
+}
+
+//-->
+</script>
+
+    <div class="exportInfo">
+        <div class="chkboxCount"></div>
+        <div class="exportHelp">
+            <a target="sdhelp" href="/science?_ob=HelpURL&_file=art_export.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=art_export.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a>
+        </div>
+    </div>
+
+    <div class="expContainer">
+      <ul class="Export_Popup" width="100%">
+        <li class="subHeading"><h3> Direct export </h3></li>
+        <li class="direct_export">
+         
+            <div>
+              <div class="btn_export directExport">
+                <div class="icon_Mendeley" title="Save to Mendeley">&nbsp;</div>
+                <input id="directExport" type="button" value="Save to Mendeley" name="Save to Mendeley" alt="Save to Mendeley" class="mendeleyBT button"/>
+              </div>
+            </div>
+        
+        
+            <div class="btnLine">
+              <div class="btn_export refworks">
+                <div class="icon_Refworks" title="Save to RefWorks">&nbsp;</div>
+                <input id="REFWX" type="button" value="Save to RefWorks" name="Save to RefWorks" alt="Save to RefWorks" class="button refworks"/>
+              </div> 
+            </div>
+            <div class="clear"> </div>
+        
+        </li>
+        <li class="subHeading big"> <h3>Export file</h3></li>
+        <li class="export_radio RIS"><input type="radio" id="RIS" checked name="citation-type" value="RIS"  class="artRadio expRadio RIS">&nbsp;<label for="RIS">RIS&nbsp;(for EndNote, Reference Manager, ProCite)</label>
+        </li>
+        <li class="export_radio"><input type="radio" id="BIBTEX" name="citation-type" value="BIBTEX"  class="artRadio expRadio BIBTEX">&nbsp;<label for="BIBTEX">BibTeX</label>
+        </li>
+        <li class="export_radio"><input type="radio" id="ASCII" name="citation-type" value="ASCII"  class="artRadio expRadio ASCII">&nbsp;<label for="ASCII">Text</label>
+        </li>
+        <li class="export_radio hidden"><input type="radio" id="REFWX" name="citation-type" value="REFWX"  class="artRadio expRadio REFWX">&nbsp;<label for="REFWX">RefWorks Direct Export</label>
+        </li>
+        <li class="subHeading big"><h3>Content</h3></li>
+        <li class="expCitab export_radio"><input type="radio" id="cite" class="cite artRadio expRadio" name="format" value="cite" >&nbsp;<label class="cit" for="cite"> Citation Only </label>
+        </li>
+        <li class="expCitab export_radio citab"><input type="radio" id="cite-abs" class="cite-abs artRadio expRadio" name="format" value="cite-abs" checked>&nbsp;<label class="cab" for="cite-abs"> Citation and Abstract </label>
+        </li>
+        <li class="export_submit">
+            <div class="downBtn export_downBtn">
+               <input type="submit" value="Export" name="export" alt="Export" class="button export_button" id="export_button"/>
+            </div> 
+        </li>
+      </ul>
+
+    </div>
+
+                            </div> 
+                        </div> 
+                    </li>
+                    
+                    
+                    <li class="SuggestedArtLabel">
+                      <img src="http://cdn.els-cdn.com/sd/sci_dir/open_access.gif" alt="Icon for open Access"> = Open Access/Open Archive <br>
+                    </li>
+                    
+                </ul>
+                </div>
+                
+                <div id="pdfkingContent" style="display:none;">
+                    <div class="popcontent"></div> 
+                    <div id="relatedArtList" data-entitled="Y"></div>
+                </div>
+                
+                <div class="originalArticleDiv">
+                    <ul>
+                    <li class="originalArticle">The original article you were looking at:</li>
+                    <li class="selection"><input class="checkBox" type="checkbox" name="art" value="1-s2.0-S1046202314004277" aria-labelledby="title_S1046202314004277" ></li>
+                    <li id="title_S1046202314004277" class="originalArticleName">Neuroinformatics of the <i>Allen Mouse Brain Connectivity Atlas</i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "footer">
+                
+                <a class = "do-not-show" href="#" onClick="pdfCite.setOptOutFlag('http://www.sciencedirect.com/science/suggestedArt/optOut');" style="cursor: pointer;">Do not show again</a>
+            </div>
+          
+          </form>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+<script src="http://cdn.els-cdn.com/sd/js/sdX_1506R3.js"></script>
+
+
+
+
+<script src="http://cdn.els-cdn.com/sd/js/sd_1506R3.js"></script>
+
+
+
+<script src="http://cdn.els-cdn.com/sd/js/pa_1506R3.js"></script>
+
+
+<script>
+var sciverse="empty";
+var SDM=new Object;
+SDM.tm=new Object;
+SDM.tm.ahm='h'
+
+
+
+SDM.ep=new Object;
+SDM.ep.downloadCsvURL = "http://services.elsevier.com/SDWebExport/export/table/csv";
+SDM.ep.downloadActionURL = "http://www.sciencedirect.com/science/downloadActions/keyEvent/S1046202314004277/10462023";
+SDM.ep.gigyaLib="//cdn.gigya.com/JS/socialize.js?apiKey=3__Bt7bHrGM8mjKPwBuOVjWyMi678aF6-PewcnoHJJ6UR1fS5t9NG9RBbKHjE0oA6J";
+SDM.ep.imgUrlPrefix = "http://ars.els-cdn.com/content/image/";
+SDM.ep.mendeleyJS = "https://www.mendeley.com/minified/bookmarklet.js";
+SDM.ep.prDevice = "http://pa.elsevier.com";
+SDM.ep.pru = "http://pa.elsevier.com";
+SDM.ep.ref2ref2by = "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S1046202314004277";
+SDM.ep.staticImgUrlPrefix = "http://cdn.els-cdn.com/sd";
+SDM.ep.urlPrefix = "http://www.sciencedirect.com/science";
+SDM.ep.urlQualifier = "science";
+SDM.ep.urlScheme = "http://www.sciencedirect.com";
+SDM.ep.userActionURL = "http://www.sciencedirect.com/science/UserActions";
+ SDM.helpUrlDomain="http://help.sciencedirect.com/flare"; 
+
+
+
+
+SDM.pm=new Object;
+SDM.pm.cid = '272416';
+SDM.pm.contentFamily = "serial";
+SDM.pm.contentType = "JL";
+SDM.pm.coverDate = '28-Feb-2015';
+
+SDM.pm.doi = '10.1016/j.ymeth.2014.12.013';
+
+SDM.doi = '10.1016/j.ymeth.2014.12.013';
+SDM.pm.eid = '1-s2.0-S1046202314004277';
+SDM.pm.entitled = true;
+ SDM.pm.hubEid = '1-s2.0-S1046202315X00028'; 
+SDM.pm.indexType = '';
+SDM.pm.issnisbn = "10462023";
+ SDM.pm.isSpecialIssue=true;
+SDM.pm.itemWeight = 'FULL-TEXT';
+SDM.pm.mod_cid="";
+SDM.pm.mod_srcTitle="";
+SDM.pm.mod_ISBN = "";
+SDM.pm.pdfEid = '1-s2.0-S1046202314004277-main.pdf';
+SDM.pm.pdfSize = '7679789';
+SDM.pm.pii = 'S1046202314004277';
+SDM.pm.prodColor="sci_dir";if(SDM.pm.prodColor=="sci_dir")SDM.pm.prodColor="";
+ SDM.pm.rev = '20150515T043742104554'; 
+ SDM.pm.hrev = 'vH.7'; 
+ SDM.pm.pptURL = 'http://services.elsevier.com/SDWebExport/export/figure/'; 
+
+
+
+
+
+
+SDM.pf = new Object;
+SDM.pf.pdfAvail = true;
+SDM.pf.reqAllFrags = true;
+ SDM.pf.maxElemsAllFrags = 12000
+SDM.pf.relatedBkAvail=true;
+SDM.pf.mlktAvail = true;
+SDM.pf.hpccAvail = true;
+SDM.pf.blkSocialLogins=true;
+
+
+SDM.browserUserMsg=true;
+
+
+SDM.pf.citedByScAvail = true;
+SDM.pf.aetEnabled = false;
+ SDM.pf.suggestedArtPDFMaxWait="2000";
+
+
+SDM.pf.ads = new Object;
+SDM.pf.ads.leftUrl="/science/advertisement/left/num/482682/mainCat/general/cat/general/acct/1535f0abc31a4e87994340ea3b5936dd/isn/10462023/doi/10.1016_j.ymeth.2014.12.013/page/article/artOAstatus/Y";
+
+
+
+
+SDM.pf.dc = new Object;
+SDM.pf.dc.retry = 10;
+SDM.pf.dc.retryDelay = 300;
+SDM.pf.dc.retryFactor = 1.0;
+SDM.pf.dc.respObj = '';
+
+
+SDM.pf.er = new Object();
+
+
+
+
+
+
+SDM.pf.frag = new Object();
+SDM.pf.frag.fat = 'bbb79f7ea01753fa003b5397fb88d0c09362b8c666b3217103c2be197f705f738fe00de924b153fd7cbfd63ff269896139cd7c9cbafb8f8f5768976013541799c5f97527b6a0d249ac19cac018b7d4e4a5f052133a7759f48841a00b6ec4eb926114dd03e17afc7e8d9dfb17bec9b6614a5a6af48bf461a13a33258269c80bf805cb76dad1955761fbee736c0043a613714849d4b7b87868';
+SDM.pf.frag.mapRetry = 20;
+SDM.pf.frag.mapRetryDelay = 2000;
+SDM.pf.frag.mapRetryFactor = 1.1;
+SDM.pf.frag.retry = 5;
+SDM.pf.frag.retryDelay = 2000;
+SDM.pf.frag.foldFactor = 1.5;
+SDM.pf.frag.hashWait = 5000;
+
+
+
+SDM.pf.crossMark = new Object();
+SDM.pf.crossMark.url = "http://www.sciencedirect.com/science/crossMark";
+SDM.pf.crossMark.lib = "http://crossmark.crossref.org/javascripts/crossmark.min.js";
+
+
+
+
+SDM.pf.gadget = new Object();
+SDM.pf.gadget.displayGadgets=true;
+SDM.pf.gadget.sciverseUrlPfx="http://www.sciencedirect.com";
+SDM.pf.gadget.sciverseJsonObject='';
+SDM.pf.gadget.sciverseGadgetDetailsID = "";
+SDM.pf.gadget.svShindigLib="http://sciverse-shindig.elsevier.com/gadgets/js/shindig-container:pubsub-2.js?c=1";
+SDM.pf.gadget.svSciverseLib="http://www.sciencedirect.com/gadgetservices/gadgets/v9/js/SciverseShindigService,GadgetToolBar,jquery-outside,jquery.ba-bbq.min,SciverseShindigContainer,ScienceDirectShindigServices.js";
+
+
+
+SDM.pf.mrwmod = new Object();
+SDM.pf.mrwmod.breadCrumbPathURL = "http://www.sciencedirect.com/science/module/breadCrumbPaths/isbn//pii/S1046202314004277";
+
+SDM.pf.mrwmod.ldrAvail = true;
+
+
+ 
+
+
+SDM.pf.oa = new Object();
+SDM.pf.oa.item=true;
+
+
+
+
+SDM.pf.oa.userLicense='http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F4.0%2F';
+
+
+SDM.pf.ref = new Object();
+SDM.pf.ref.bs = 20;
+SDM.pf.ref.citedByURL = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_updateCitedBy=";
+SDM.pf.ref.fd = 300;
+
+SDM.pf.ref.resolveURL = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_pii=S1046202314004277&_refCnt=20&_docType=article";
+
+
+
+
+
+SDM.pf.toc=new Object;
+SDM.pf.toc.retry = 20;
+SDM.pf.toc.retryDelay = 1000;
+SDM.pf.toc.retryFactor = 1.09;
+SDM.pf.toc.outlineGraphics = false;
+SDM.pf.toc.outlineTab = "";
+
+SDM.pf.toc.urlTOCLink="http://www.sciencedirect.com/science/article/pii/S1046202314004277";
+SDM.pf.toc.urlTOCLinkQueryStr="?_rdoc=1&_fmt=full&_origin=&md5=22543fb95e34d36391c44b9d9cd72533";
+
+
+SDM.pf.ddm = new Object();
+SDM.pf.ddm.endpoint = "http://services.elsevier.com/SDWebExport/export/pdfdownload/pdf";
+
+
+
+
+
+
+
+SDM.si = new Object();
+SDM.si.webUserId = "1003104";
+SDM.si.sds = "b7aca5b33eeaf99b0baf7841b8388d7f726a5225f9f35c57b927c94bffed6481a3ea95f8c3a26825";
+SDM.si.euidCookieObject='c47d1c1b089e27863eab0716d64144abeae779f49a9b351a3906e75da9220234e4faabce848962b7';
+
+SDM.pageTransKey = "06/13/2015 23:20:29 EDT#2850_006#28999#221.212.116.13";
+SDM.pageType = "article_full";
+SDM.tid = "4f0bcb6a-1244-11e5-a988-00000aacb362";
+SDM.ud = "1003104|<SAInfo><SAId>993</SAId><SAName>Calis SDOL China Consortium (CFC)</SAName><SANum>S000000993</SANum></SAInfo>|C000050177|71045|IPRANGE";
+SDM.ieVersion="8";
+
+SDM.dac = new Object;
+SDM.svapi = SVApi;
+
+</script>
+
+
+<script src="http://cdn.els-cdn.com/sd/js/importer-api_1506R3.js.min"></script>
+
+
+<script>
+
+initializeArticlePage();
+</script>
+
+
+
+
+
+<div id="sdpa"></div>
+<script>SDPA.init();</script>
+<div id="appBackground"></div>
+
+<div id="appDialog" class="files">
+    <div id="header">
+        <h1 class="headline">Download PDFs</h1>
+        <img id="logo" class="sd-bubbles" src="http://cdn.els-cdn.com/sd/sciencedirect.svg" onerror="this.src='http://cdn.els-cdn.com/sd/sciencedirect.png'">
+        <a class="close" id="closeWindow" href="#"><img src="http://cdn.els-cdn.com/sd/img/sprite_parts/close-icon.png"></a>
+        
+    </div>
+    <div id="contentBlk" class="view">
+        <div class="help_button" id="ddmMainHelp"><a class="ddmHelp" target="sdhelp" href="/science?_ob=HelpURL&_file=DM_main.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=DM_main.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a></div>
+        <div class="help_button" id="ddmNewformatHelp"><a class="ddmHelp" target="sdhelp" href="/science?_ob=HelpURL&_file=DM_newformat.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=DM_newformat.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a></div>
+        <div id="filesTemplate"></div>
+        <div id="namingTemplate"></div> 
+    </div>
+    <div class="footer">
+    </div>
+</div>
+
+
+
+</body></html>
+

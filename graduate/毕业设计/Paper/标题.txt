@@ -1,0 +1,59 @@
+10.1.1.91.7361
+CONTOUR BASED 3D BIOLOGICAL IMAGE RECONSTRUCTION AND PARTIAL RETRIEVAL
+
+10.1.1.103.5133
+A multiresolution directional-oriented image transform based on Gaussian derivatives
+
+1312.1147v1
+Optimality of Operator-Like Wavelets
+for Representing Sparse AR(1) Processes
+
+00537621
+MULTIRESOLUTION IMAGE REGISTRATION
+
+00887976
+Optimization of Mutual Information for
+
+bmm-paper-2011
+Experimental investigation of collagen waviness and orientation
+in the arterial adventitia using confocal laser scanning microscopy
+Multiresolution Image Registration
+
+cyto2004
+Design and Validation of a Tool for Neurite Tracing
+and Analysis in Fluorescence Microscopy Images
+
+Hessia
+Accurat e Image Analysis of the Retina Using Hessian
+Matrix and Binari sation of Thresholded Entropy with
+A p p l i c a t i o n o f T e x t u r e M a p p i n g
+
+hessian
+Exploiting Eigenvalues of the Hessian Matrix for Volume Decimation
+
+jkyprian-npar2011
+Image and Video Abstraction by Multi-scale Anisotropic Kuwahara Filtering
+
+linefilter
+Three-dimensional multi-scale line filter for segmentation and
+visualization of curvilinear structures in medical images
+
+rtf
+Rotational Features Extractionfor Ridge Detection
+
+unser9902
+A perfect fit for signal and image processing
+
+Thesis
+A Statistical Approach to Feature Detection and
+Scale Selection in Images
+
+cyto2004
+Design and Validation of a Tool for Neurite Tracing
+and Analysis in Fluorescence Microscopy Images
+
+bio2004
+Image Processing with Imag
+
+vyto2010
+Neuron Tracing in Perspective
